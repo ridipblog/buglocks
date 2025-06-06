@@ -2,7 +2,7 @@
     "name": "buglock/rolepermissionmodule",
     "description": "A Role and Permission manement module",
     "type": "library",
-    "license": "",
+    "license": "MIT",
     "autoload": {
       "psr-4": {
         "BugLock\\rolePermissionModule\\": "src/"
