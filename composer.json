@@ -1,0 +1,20 @@
+{
+    "name": "buglock/rolepermissionmodule",
+    "description": "A Role and Permission manement module",
+    "type": "library",
+    "license": "",
+    "autoload": {
+      "psr-4": {
+        "BugLock\\rolePermissionModule\\": "src/"
+      }
+    },
+    "require": {},
+    "extra": {
+      "laravel": {
+        "providers": [
+          "BugLock\\rolePermissionModule\\BuglockServiceProvider"
+        ]
+      }
+    }
+  }
+  
