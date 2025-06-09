@@ -8,6 +8,6 @@ class Error
 {
     public function error(Request $request, $page = 'auth')
     {
-        return view('buglocksviews::settings.errors.' . $page);
+        return view('buglocks::public.errors.' . $page);
     }
 }
