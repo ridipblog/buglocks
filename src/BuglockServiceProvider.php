@@ -50,8 +50,8 @@ class BuglockServiceProvider extends ServiceProvider
         //Load errors pages 
         $this->loadViewsFrom(__DIR__ . '/../resources/views/', 'buglocksviews');
         //Publish all errors pages 
-        // $this->publishes([
-        //     __DIR__ . '/../resources/views/settings/errors' => resource_path('views/vendor/yourpackage'),
-        // ], 'yourpackage-views');
+        $this->publishes([
+            __DIR__ . '/../resources/views/settings/errors' => resource_path('views/vendor/buglocks'),
+        ], 'buglocks-error-views');
     }
 }

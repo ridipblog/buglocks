@@ -8,7 +8,7 @@ Route::group([
     'prefix' => 'buglocks',
 ], function () {
 
-    require __DIR__ . '/package.php';
+    require __DIR__ . '/setup.php';
 
     // ***** all errors routes *****
     require __DIR__ . '/errors.php';
